@@ -28,6 +28,10 @@ a:hover {
     align-items: center;
 }
 
+main {
+    background: linear-gradient(white, yellow);
+}
+
 .lista {
     font-size: 16px;
     color: white;
@@ -180,4 +184,5 @@ footer a {
     flex-direction: column;
     gap: 16px;
 }
+
 
