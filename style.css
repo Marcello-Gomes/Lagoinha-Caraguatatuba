@@ -94,51 +94,48 @@ main {
     margin-top: 100px;
 }
 
-.title {
-    font-size: 44px;
-    line-height: 56px;
-    font-weight: 700;
-
-
-}
-
-#services-container {
-    padding: 96px 72px;
-}
-
-.services-list {
-    margin-top: 48px;
+.produtos {
+    width: 940px;
     display: flex;
-    gap: 32px;
-    
-    
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
-.services-card {
-    background-color: #F5F3F4;
-    border: 2 px solid #d3d3d3;
-
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-.services-card img {
-    width: 100%;
+.foto {
+    width: 360px;
 }
 
-.services-card__text {
-    padding: 32px;
-    
+.produtos li:hover {
+    border-color: white; ;
 }
 
-.services-card__text h3 {
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 700;
-    margin-bottom: 8px;
+.produtos li:active {
+    border-color: white;
 }
 
-.services-card__text p {
-    font-size: 16px;
-    line-height: 24px;
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
 }
 
 .igreja {
