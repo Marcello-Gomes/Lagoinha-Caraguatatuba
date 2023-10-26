@@ -1,0 +1,183 @@
+body {
+    font-family:'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background: black;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    padding: 0 30px 0 30px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+.navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.lista {
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
+
+}
+
+.menu-titulo {
+    padding: 60px 0 0 0;
+
+}
+
+.titulo {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.subtitulo {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
+
+.title {
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    margin: 60px 0 60px 0;
+}
+
+.GC {
+    width: 360px;
+    text-align: center;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.subtitle {
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.empresa {
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 1.6;
+
+}
+
+.video {
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 700;
+
+
+}
+
+#services-container {
+    padding: 96px 72px;
+}
+
+.services-list {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    
+    
+}
+
+.services-card {
+    background-color: #F5F3F4;
+    border: 2 px solid #d3d3d3;
+
+}
+
+.services-card img {
+    width: 100%;
+}
+
+.services-card__text {
+    padding: 32px;
+    
+}
+
+.services-card__text h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.services-card__text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.igreja {
+    width: 560px;
+    text-align: center;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.subtitle1 {
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.empresa1 {
+    font-size: 25px;
+    margin-top: 30px;
+    line-height: 1.6;
+
+}
+
+.map {
+    width: 100%;
+}
+
+footer {
+    background-color: #0b090a;
+    color:yellow;
+    padding: 48px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer a {
+    color: currentColor;
+}
+
+.footer-logocopy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
