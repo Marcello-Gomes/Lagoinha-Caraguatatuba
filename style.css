@@ -1,5 +1,5 @@
 body {
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -118,7 +118,8 @@ main {
 }
 
 .produtos li:hover {
-    border-color: white; ;
+    border-color: white;
+    ;
 }
 
 .produtos li:active {
@@ -136,6 +137,34 @@ main {
 
 .produto-descricao {
     font-size: 18px;
+}
+
+.img-logo2 {
+    height: 620px;
+    width: 510px;
+    margin-left: 450px;
+    transition: opacity 2s ease-in-out;
+
+}
+
+.absolute-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hero-img {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    position: relative;
+
+}
+
+.hero-img img {
+    max-width: 100%;
+    display: flex;
+
 }
 
 .igreja {
@@ -164,7 +193,7 @@ main {
 
 footer {
     background-color: #0b090a;
-    color:yellow;
+    color: yellow;
     padding: 48px 72px;
     display: flex;
     justify-content: space-between;
@@ -181,5 +210,3 @@ footer a {
     flex-direction: column;
     gap: 16px;
 }
-
-
