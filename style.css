@@ -146,7 +146,7 @@ main {
 
 .img-logo2 {
     height: 38.75rem;
-    width: 31.88rem;
+    width: 50%rem;
     margin-left: 28.125rem;
     transition: opacity 2s ease-in-out;
 
@@ -173,7 +173,7 @@ main {
 }
 
 .igreja {
-    width: 35rem;
+    width: 50%;
     text-align: center;
     float: left;
     margin: 0 1.25rem 1.25rem 0;
