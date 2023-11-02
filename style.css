@@ -74,15 +74,15 @@ main {
 
 
 .title {
-    font-size: 2.82rem;
+    font-size: 2rem;
     font-style: italic;
     font-weight: bolder;
     text-align: center;
-    margin: 3.75rem 0 3.75rem 0;
+    margin: 3rem 0;
 }
 
 .GC {
-    width: 22.5rem;
+    width: 25%;
     text-align: center;
     float: left;
     margin: 0 1.25rem 1.25rem 0;
@@ -102,8 +102,10 @@ main {
 }
 
 .video {
-    
+    width: 50%;         
     margin-top: 6.25rem;
+    align-items: center;
+    
 }
 
 .produtos {
@@ -114,10 +116,10 @@ main {
 }
 
 .produtos li {
-    display: inline-block;
+   display:inline-block ;
     text-align: center;
-    width: 60%;
-    vertical-align: top;
+    width: 48%;
+   
     margin: 0 1.5%;
     padding: 1.88rem 1.25rem;
     box-sizing: border-box;
@@ -127,7 +129,7 @@ main {
 
 
 .foto {
-    width: 30rem;
+    width: 100%;
 }
 
 .produtos li:hover {
@@ -153,9 +155,11 @@ main {
 }
 
 .img-logo2 {
-    height: 38.75rem;
-    width: 50%rem;
-    margin-left: 28.125rem;
+    height: 39rem;
+    width: 40%;
+    
+    margin: 100px;
+    align-items: center;
     transition: opacity 2s ease-in-out;
 
 }
@@ -167,16 +171,18 @@ main {
 }
 
 .hero-img {
-    flex: 1;
-    align-self: flex-end;
-    display: flex;
-    position: relative;
+   display: flex;
+   flex: 1;
+   align-items: center;
+   position: relative;
 
 }
 
-.hero-img img {
-    max-width: 100%;
+.hero-img img {    
+    
+   max-width: 100%;
     display: flex;
+  
 
 }
 
@@ -207,10 +213,12 @@ main {
 footer {
     background-color: #0b090a;
     color: yellow;
-    padding: 3rem 4.5rem;
+    padding: 1.5rem;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
+   
     
 
 }
@@ -225,35 +233,120 @@ footer a {
     gap: 1rem;
 }
 
-@media screen and (max-width:1240px) {
+@media screen and (max-width: 1200px) {
+
+    .header {
+        width: auto;
+    }
 
     main {
         width: auto;
     }
 
-    .navegacao {
-        flex-direction: column;
+    .title {
+        font-size: auto;
     }
 
-    .navegacao ul {
-        text-align: center;
+    .subtitle, .empresa, .subtitle1, .empresa1 {
+        font-size: auto;
+    }
+    .video {      
+      
+        
+        align-items: center;      
+        
+        
     }
 
-    .produto {
+    .img-logo2, .absolute-img {
+       
+        width: auto; 
+        margin-right: 350px;
+ 
+     }
+}
+
+@media screen and (max-width: 1025px) {
+
+    .header {
         width: auto;
-        flex-direction: column;
+    }
+    
+    main {
+        max-width: 100%;
+
     }
 
-    li {
+    .title {
+        font-size: auto;
+    }
+
+    .subtitle, .empresa, .subtitle1, .empresa1 {
+        font-size: auto;
+    }
+
+    .produtos {
+        width: auto;
+        gap: 20px;
         flex-direction: column;
         align-items: center;
+    }
+
+    .img-logo2, .absolute-img {
+       
+       width: auto; 
+       margin-right: 350px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        width: 100%;
 
     }
 
-    .lista { 
+    main {
+        width: 100%;
+    }
 
-        display: block;
-        text-align: center;
-        padding: 10px;
+    .navegacao  {
+        
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+
+    .subtitle, .empresa, .subtitle1, .empresa1 {
+        margin: 10px;
+        font-size: 1rem;
+    }
+
+    .produtos {
+        width: auto;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-img {
+        max-width: auto;
+        align-items: center;
+    }
+
+   
+    
+
+    
+
+    .igreja {
+        flex-direction: column;
     }
 }
