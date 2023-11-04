@@ -104,6 +104,8 @@ main {
 .video {
     width: 50%;         
     margin-top: 6.25rem;
+    
+    
     align-items: center;
     
 }
@@ -252,8 +254,9 @@ footer a {
     }
     .video {      
       
-        
-        align-items: center;      
+        width: auto;
+        align-items: center;  
+        margin-left: 10px;    
         
         
     }
@@ -261,7 +264,7 @@ footer a {
     .img-logo2, .absolute-img {
        
         width: auto; 
-        margin-right: 350px;
+        margin: auto;
  
      }
 }
@@ -339,6 +342,11 @@ footer a {
     .hero-img {
         max-width: auto;
         align-items: center;
+    }
+
+    .video {
+        width: auto;
+        margin-left: 10px;
     }
 
    
