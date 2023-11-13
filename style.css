@@ -241,6 +241,10 @@ footer a {
         width: auto;
     }
 
+    .lista {
+        flex-direction: column;
+    }
+
     main {
         width: auto;
     }
